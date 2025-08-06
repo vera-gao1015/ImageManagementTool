@@ -1,6 +1,6 @@
 # JavaFX Image Manager
 
-A standalone JavaFX application for managing and viewing images with EXIF data support.
+A JavaFX application for managing and viewing images with EXIF data support.
 
 ## Prerequisites
 
