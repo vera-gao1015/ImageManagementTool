@@ -17,7 +17,8 @@ echo "Compiling Java files..."
 javac --module-path "$JAVAFX_PATH" \
       --add-modules javafx.controls,javafx.fxml \
       -cp "lib/*" \
-      *.java
+      -d . \
+      src/*.java
 
 if [ $? -ne 0 ]; then
     echo "Compilation failed!"
