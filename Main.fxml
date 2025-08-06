@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ImageManagerController">
+
+    <!-- Top: Upload & Convert Buttons -->
+    <top>
+        <ToolBar prefHeight="40">
+            <Button text="Upload Image" onAction="#handleUpload"/>
+            <Button text="Convert Format" onAction="#handleConvert"/>
+            <Region HBox.hgrow="ALWAYS"/>
+            <Button text="Exit" onAction="#handleExit"/>
+        </ToolBar>
+    </top>
+
+    <!-- Center: Image Thumbnails -->
+    <center>
+        <ScrollPane fitToWidth="true" prefHeight="500">
+            <TilePane fx:id="imagePane" hgap="15" vgap="15">
+                <padding>
+                    <Insets top="10" right="10" bottom="10" left="10"/>
+                </padding>
+            </TilePane>
+
+
+        </ScrollPane>
+    </center>
+
+    <!-- Bottom: Image Info -->
+    <bottom>
+        <TextArea fx:id="infoArea" editable="false" wrapText="true"
+                  prefHeight="200" style="-fx-font-size: 14px;"/>
+        
+    </bottom>
+    
+</BorderPane>

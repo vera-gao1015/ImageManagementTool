@@ -1,0 +1,15 @@
+# Compiled class files
+*.class
+
+# Large files and test images - keep repository lightweight
+images/
+lib/
+
+# IDE specific files
+.DS_Store
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp

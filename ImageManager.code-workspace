@@ -1,0 +1,25 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "java.project.referencedLibraries": [
+            "lib/*.jar",
+            "/Users/gaowei/Downloads/javafx-sdk-24.0.1/lib/*.jar"
+        ]
+    },
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "type": "java",
+                "name": "Run JavaFX Image Manager",
+                "request": "launch",
+                "mainClass": "MainApp",
+                "vmArgs": "--module-path /Users/gaowei/Downloads/javafx-sdk-24.0.1/lib --add-modules javafx.controls,javafx.fxml"
+            }
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/*.jar",
+        "/Users/gaowei/Downloads/javafx-sdk-24.0.1/lib/*.jar"
+    ],
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
